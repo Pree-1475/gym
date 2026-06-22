@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion, useScroll, useTransform, MotionValue } from "framer-motion";
 import { useRef } from "react";
 
 export function PhilosophySection() {
@@ -42,7 +42,7 @@ export function PhilosophySection() {
   );
 }
 
-function Word({ word, progress, range }: { word: string, progress: any, range: number[] }) {
+function Word({ word, progress, range }: { word: string, progress: MotionValue<number>, range: number[] }) {
   const opacity = useTransform(progress, range, [0.15, 1]);
   return (
     <motion.span style={{ opacity }} className="inline-block uppercase">
