@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const FAQS = [
   {
     question: "How much is a membership?",
-    answer: "Our standard monthly membership is RM 150. We also offer a walk-in pass for RM 25, a 3-month package for RM 400, and a 1-year package for RM 1500. No hidden joining or cancellation fees."
+    answer: "Our standard monthly membership is RM 150. We also offer a walk-in pass for RM 25, a 3-month package for RM 400, and a 1-year package for RM 1,000. No hidden joining or cancellation fees."
   },
   {
     question: "Do you offer trial sessions?",

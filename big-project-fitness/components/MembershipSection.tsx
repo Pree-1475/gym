@@ -24,14 +24,14 @@ const MEMBERSHIPS = [
     period: "per 3 months",
     desc: "Commit to your progress and save.",
     features: ["Everything in Monthly", "Guest pass (1/month)", "Priority event registration"],
-    featured: true,
   },
   {
     name: "1-Year",
-    price: "RM 1500",
+    price: "RM 1,000",
     period: "per year",
     desc: "The ultimate commitment. Best value.",
     features: ["Lowest monthly rate", "Guest pass (2/month)", "Free BiG Project apparel"],
+    featured: true,
   },
 ];
 
@@ -58,7 +58,7 @@ export function MembershipSection() {
           </h2>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+        <div className="flex md:grid md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 overflow-x-auto pb-8 snap-x snap-mandatory no-scrollbar">
           {MEMBERSHIPS.map((plan, index) => (
             <motion.div
               key={plan.name}
@@ -66,7 +66,7 @@ export function MembershipSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
-              className={`flex flex-col p-8 md:p-10 border ${
+              className={`flex flex-col p-8 md:p-10 border w-[85vw] md:w-auto shrink-0 snap-center ${
                 plan.featured ? "border-accent bg-white/5" : "border-white/10 bg-[#050505]"
               }`}
             >

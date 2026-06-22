@@ -62,7 +62,7 @@ export function FloatingNav() {
             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
             className="fixed inset-0 z-40 bg-[#050505] flex flex-col justify-center px-6 md:px-12"
           >
-            <div className="flex flex-col gap-2 md:gap-4 mt-24 md:mt-32">
+            <div className="flex flex-col gap-1 md:gap-3 mt-24 md:mt-32">
               {NAV_LINKS.map((link, index) => (
                 <div key={link.name} className="overflow-hidden">
                   <motion.div
@@ -74,7 +74,7 @@ export function FloatingNav() {
                     <a
                       href={link.href}
                       onClick={() => setIsOpen(false)}
-                      className="inline-block font-display text-[12vw] md:text-[6vw] leading-[0.85] text-white/40 hover:text-white hover:translate-x-4 md:hover:translate-x-8 transition-all duration-500 uppercase"
+                      className="inline-block font-display text-[9vw] md:text-[4vw] leading-[0.9] text-white/40 hover:text-white hover:translate-x-4 md:hover:translate-x-8 transition-all duration-500 uppercase"
                     >
                       {link.name}
                     </a>
