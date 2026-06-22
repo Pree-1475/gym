@@ -66,7 +66,7 @@ export function TransformationSection() {
                   {item.name}
                 </h3>
                 <p className="font-mono text-xs md:text-sm text-accent tracking-widest uppercase md:pb-2">
-                  {item.metric} // {item.duration}
+                  {item.metric} {" // "} {item.duration}
                 </p>
               </div>
               
