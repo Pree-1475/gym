@@ -36,7 +36,7 @@ export function FloatingNav() {
         <div className="w-full px-6 md:px-12 py-6 md:py-10 flex items-start justify-between pointer-events-auto">
           <div className="flex flex-col">
             <a href="#" onClick={() => setIsOpen(false)} className="font-display text-2xl md:text-3xl text-white uppercase tracking-widest hover:opacity-70 transition-opacity">
-              BiG PROJECT
+              JS PRO GYM
             </a>
             <span className="font-mono text-[10px] text-white/50 tracking-[0.3em] mt-1 hidden md:block">JOHOR BAHRU, MY</span>
           </div>

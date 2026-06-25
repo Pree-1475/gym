@@ -94,8 +94,8 @@ export function HeroSection() {
             style={{ scale: textScale, opacity: textOpacity }}
             className="font-display text-[26vw] md:text-[22vw] leading-[0.85] md:leading-[0.8] text-white tracking-tighter text-center flex flex-col"
           >
-            <span>BIG</span>
-            <span>PROJECT</span>
+            <span>JS</span>
+            <span>PRO</span>
           </motion.h1>
         </div>
 

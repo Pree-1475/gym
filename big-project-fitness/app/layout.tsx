@@ -18,7 +18,7 @@ const bebasNeue = Bebas_Neue({
 });
 
 export const metadata: Metadata = {
-  title: "BiG Project Fitness | Premium Fitness Facility",
+  title: "JS Pro Gym | Premium Fitness Facility",
   description: "Train in one of Johor Bahru's most trusted fitness facilities with quality equipment, experienced coaching, and a community built around long-term progress.",
 };
 

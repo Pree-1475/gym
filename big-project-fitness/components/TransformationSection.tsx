@@ -9,7 +9,7 @@ const TRANSFORMATIONS = [
     name: "Marcus T.",
     duration: "18 Months",
     metric: "+15kg Muscle Mass",
-    story: "I spent years program hopping with minimal results. The structured approach and environment at BiG Project completely changed my trajectory.",
+    story: "I spent years program hopping with minimal results. The structured approach and environment at JS Pro Gym completely changed my trajectory.",
     beforeImg: "https://images.unsplash.com/photo-1581009137042-c552e485697a?q=80&w=800&auto=format&fit=crop",
     afterImg: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=800&auto=format&fit=crop"
   },

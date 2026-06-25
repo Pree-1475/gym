@@ -65,7 +65,7 @@ export function Preloader() {
           </div>
           
           <div className="absolute bottom-12 left-12 font-mono text-[10px] text-white/30 tracking-[0.2em] flex flex-col gap-2">
-            <span>BiG PROJECT // EST 2024</span>
+            <span>JS PRO GYM // EST 2024</span>
             <span>JOHOR BAHRU, MY</span>
           </div>
         </motion.div>

@@ -30,7 +30,7 @@ const MEMBERSHIPS = [
     price: "RM 1,000",
     period: "per year",
     desc: "The ultimate commitment. Best value.",
-    features: ["Lowest monthly rate", "Guest pass (2/month)", "Free BiG Project apparel"],
+    features: ["Lowest monthly rate", "Guest pass (2/month)", "Free JS Pro Gym apparel"],
     featured: true,
   },
 ];
